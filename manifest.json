@@ -1,0 +1,13 @@
+{
+  "name": "ScreenCapture",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js", "page.js"],
+    "persistent": true
+  },
+  "permissions": [ "activeTab", "tabs", "http://*/*", "https://*/*"]
+}
